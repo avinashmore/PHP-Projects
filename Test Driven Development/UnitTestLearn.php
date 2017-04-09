@@ -103,7 +103,7 @@ class UnitTestLearn extends TestCase
 	{
 		# checks if the two json files are equal or not
 		$this->assertJsonFileEqualsJsonFile(
-          'composer.json', 'composer1.json');
+          'composer.json', 'notComposer.json');
 
 		#checks if the JSON strings match or not
 		$this->assertJsonStringEqualsJsonString(
