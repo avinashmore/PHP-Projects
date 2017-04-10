@@ -1,0 +1,69 @@
+body {
+    font-family: Times;
+    font-size: 12pt;
+}
+
+#topmenu-container {
+    width: 100%;
+    padding-bottom: 2px;
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+}
+
+#topmenu {
+    width: 650px;
+    margin: auto;
+}
+
+#languages {
+    float: right;
+}
+
+.clear {
+    float: none;
+    clear: both;
+}
+
+.wrapper {
+    width: 650px;
+    margin: auto;
+}
+
+.column {
+    float: left;
+    width: 315px;
+    padding: 10px;
+    padding-left: 0px;
+}
+
+input, textarea, select {
+    margin: 0.5em 15px;
+}
+
+img {
+    width: 100%;
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px dashed #AAAAAA;
+    width: 100%;
+}
+
+#well-container {
+    width: 265px;
+    border: 0px;
+    margin: 0px;
+    padding: 25px;
+}
+
+.note {
+    font-style: italic;
+    color: #AAAAAA;
+}
+
+input.small {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 40px ;
+}
