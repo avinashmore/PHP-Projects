@@ -19,7 +19,7 @@ Drag the folder into Apache document root.
 
 Run composer install from the command line to install dependencies like gettext, stripe, etc.
 
-Navigate to the Hw5 directory and from the command line, run php CreateDB.php to intialize the database and table. Please make sure you have ran the composer command in step 2 as we use a mysqli helper class which can effect your db creation.
+Navigate to the root directory and from the command line, run php CreateDB.php to intialize the database and table. Please make sure you have ran the composer command in step 2 as we use a mysqli helper class which can effect your db creation.
 
 You should be at the main page and have the ability to enter data. Please enter a valid test card from https://stripe.com/docs/testing (We used 4242424242424242) and a future expiration month and year.
 
